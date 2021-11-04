@@ -4,7 +4,7 @@ The purpose of this app is to generate random dog images when a user click the "
 
 ## Issues
 
-I am currently only getting build errors:
+I am getting the following build errors:
 ```bash
 > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
    > The minCompileSdk (31) specified in a
