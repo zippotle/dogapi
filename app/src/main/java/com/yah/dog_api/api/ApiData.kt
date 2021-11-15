@@ -1,8 +1,12 @@
 package com.yah.dog_api.api
 
+import com.squareup.moshi.Json
+
 data class ApiData (
-    val fileSizeBytes: Int,
-    val url: String
+    @Json(name = "message")
+    val url: String,
+    @Json(name = "status")
+    val status: String
 //    val status: String,
 //    val message: String
 
